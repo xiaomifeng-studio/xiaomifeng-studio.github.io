@@ -62,7 +62,7 @@
 
 
 
-### 5.图片（需要统一存储图片，存储三方平台待定）
+### 5.图片（需要统一三方存储图片，暂定为阿里OSS）
 
 语法：
 ```
@@ -74,7 +74,7 @@
 
 示例：
 
-![blockchain](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=702257389,1274025419&fm=27&gp=0.jpg "区块链")
+![account](https://xmf-studio.oss-cn-beijing.aliyuncs.com/home/wmf-studio/md-file-upload/test-file/%E8%B4%A6%E5%8F%B7%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E5%9B%BE.PNG "账户系统")
 
 ### 6.超链接
 
@@ -173,12 +173,12 @@ public static void main(String[] args) {
 ## 约定：
 1. 所有MarkDown语法后面必须跟一个空格，如：”> ”、”. ”、”- ” 等..；
 2. 强制从一级标题开始顺序编写，不能超过三级标题；
-3. 需要统一存储图片，在文章中配置可访问图片地址，存储三方平台待定
+3. 需要统一三方存储图片，在文章中配置可访问图片地址，现考虑文件丢失安全问题，选择阿里OSS；
 4. 语法严格按照上述示例方式来做，不得多写一个字符，如：”- ”，不能写成”-- ”，即使效果一样；
 5. 如果出现不够用的情况，请反馈并制定合适的规范；
 6. 一个md文件中必须要有一个一级标题，并且需要声明作者（@Author）和时间（@Date） ;
 7. 发布到公众号，需要将md文件通过在线方式转成公众号可识别的格式，页面主题必须选择”默认样式-适合代码“，代码主题必须选择”atelier-forest-light“
 8. 所有md文件必须提交到统一的github 》xiaomifeng-studio.github.io 项目下；
-9. 更多...
+更多...
 
 
